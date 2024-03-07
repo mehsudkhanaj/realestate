@@ -16,3 +16,30 @@
 .h-menu {
     gap: 2rem;
 }
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width:780px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .h-menu {
+        color: black;
+        position: absolute;
+        top: 3rem;
+        right: 4rem;
+        background: white;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 2rem;
+        padding: 3rem;
+        align-items: flex-start;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgb(177, 173, 173);
+        transition: all 300ms ease-in-out;
+
+    }
+}

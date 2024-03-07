@@ -3,6 +3,9 @@ import Hero from './components/Hero/Hero'
 import Client from './components/Client/Client'
 import Residence from './components/Residences/Residence'
 import Value from './components/Value/Value'
+import Contact from './components/Contact/Contact'
+import Getstarted from './components/Gs/Getstarted';
+import Footer from './components/Footer/Footer';
 import './App.css'
 function App () {
   return (
@@ -17,6 +20,9 @@ function App () {
         <Client />
         <Residence />
         <Value/>
+        <Contact/>
+        <Getstarted/>
+        <Footer/>
       </div>
     </>
   )
